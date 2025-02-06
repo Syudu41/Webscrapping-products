@@ -19,7 +19,7 @@ from fasteda import fast_eda
 from tabulate import tabulate
 
 #LOADING DATASET
-df=pd.read_csv("D:/UOFM/3rd Sem/AI/PROJECT/train.csv")
+df=pd.read_csv("train.csv")
 df
 
 #SHAPE OF DATASET
@@ -574,7 +574,7 @@ plt.show()
 
 
 #READING PREDICTION CSV DATA AND CREATING DATAFRAME
-dft=pd.read_csv("D:/UOFM/3rd Sem/AI/PROJECT/test.csv")
+dft=pd.read_csv("test.csv")
 dft
 
 
